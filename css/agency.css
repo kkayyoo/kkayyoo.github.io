@@ -323,15 +323,16 @@ fieldset[disabled] .btn-sm.active {
 
 .titleContainer{
     position: absolute;
-    margin-left: 22%;
+    width: 100%;
     text-align: center;
-    color: #fff
+    color: #fff;
 
 } 
 
 .titleContainer .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+   
 }
 
 .titleContainer .intro-text .intro-lead-in {
@@ -356,7 +357,8 @@ fieldset[disabled] .btn-sm.active {
 @media (min-width:768px) {
     .titleContainer .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px
+        padding-bottom: 200px;
+        text-align:center;
     }
     .titleContainer .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
