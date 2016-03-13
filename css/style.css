@@ -338,7 +338,7 @@ fieldset[disabled] .btn-sm.active {
 .titleContainer .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px;
     text-align:center;
@@ -348,7 +348,7 @@ fieldset[disabled] .btn-sm.active {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 42px;
     line-height: 50px;
     margin-bottom: 25px;
     text-align: center;
@@ -363,7 +363,7 @@ fieldset[disabled] .btn-sm.active {
     .titleContainer .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 22px;
+        font-size: 28px;
         line-height: 40px;
         margin-bottom: 25px;
         text-align: center;
@@ -556,7 +556,7 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image h4 {
-    font-size: 10px;
+    font-size: 6px;
     margin-top: 12px;
     line-height: 14px
 }
@@ -949,11 +949,18 @@ body {
     margin-bottom: 30px;
 }
 .resume{
-    width: 680px;
-    height: 880px;
+       width: 375px;
+       height: 485px;
+    
     box-shadow: 12px 12px 8px #888888;
 }
 
+@media (min-width:768px) {
+    .resume {
+        width: 680px;
+        height: 880px;
+    }
+}
 .download{
     display: inline-block;
     border-radius: 100px;
