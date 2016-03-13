@@ -620,7 +620,7 @@ section h3.section-subheading {
         margin-left: -50px
     }
     .timeline>li .timeline-image h4 {
-        font-size: 13px;
+        font-size: 8px;
         margin-top: 16px;
         line-height: 18px
     }
@@ -949,7 +949,8 @@ body {
     margin-bottom: 30px;
 }
 .resume{
-
+    width: 680px;
+    height: 880px;
     box-shadow: 12px 12px 8px #888888;
 }
 
