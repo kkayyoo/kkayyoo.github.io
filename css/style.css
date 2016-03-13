@@ -363,7 +363,7 @@ fieldset[disabled] .btn-sm.active {
     .titleContainer .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 28px;
+        font-size: 22px;
         line-height: 40px;
         margin-bottom: 25px;
         text-align: center;
@@ -380,22 +380,22 @@ fieldset[disabled] .btn-sm.active {
 }
 
 section {
-    padding: 100px 0
+    padding: 80px 0
 }
 
 section h2.section-heading {
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 0;
-    margin-bottom: 15px
+    margin-bottom: 25px
 }
 
 section h3.section-subheading {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
-    margin-bottom: 75px
+    margin-bottom: 70px;
 }
 
 @media (min-width:768px) {
@@ -404,7 +404,7 @@ section h3.section-subheading {
     }
 }
 
-.service-heading {
+.intro-heading {
     margin: 15px 0;
     text-transform: none
 }
@@ -673,29 +673,7 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
-    text-align: center;
-    margin-bottom: 50px
-}
 
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none
-}
-
-.team-member p {
-    margin-top: 0
-}
-
-aside.clients img {
-    margin: 50px auto
-}
 
 section#contact {
     background-color: #F7F7F7;
@@ -957,3 +935,37 @@ body {
 .img-shadow{
     box-shadow: 12px 12px 5px #888888;
 }
+.resumeContainer{
+   width: 100%;
+}
+.resumeContainer h3.information {
+    font-size: 18px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    color: #666;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.resume{
+
+    box-shadow: 12px 12px 8px #888888;
+}
+
+.download{
+    display: inline-block;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 2px solid #1abc9c;
+    color: #1abc9c;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 8px;
+    width: 180px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+
