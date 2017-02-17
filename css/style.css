@@ -173,7 +173,7 @@ fieldset[disabled] .btn-sm.active {
 }
 
 .navbar-default {
-    background-color: #222;
+    background-color: transparent;
     border-color: transparent;
 }
 
@@ -186,16 +186,17 @@ fieldset[disabled] .btn-sm.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #16a085
+    color: #16a085;
 }
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255, 255, 255, .02);
+    background: #155a4c;
     }
 
 .navbar-default .navbar-toggle {
     background-color: #1abc9c;
-    border-color: #1abc9c
+    border-color: #1abc9c;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -224,8 +225,8 @@ fieldset[disabled] .btn-sm.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #1abc9c
+    color: #1abc9c;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -236,7 +237,7 @@ fieldset[disabled] .btn-sm.active {
 
 @media (min-width:768px) {
     .navbar-default {
-        background-color: #333;
+        background-color: transparent;
         padding: 8px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -297,21 +298,21 @@ fieldset[disabled] .btn-sm.active {
     width: 100%;
 }
 .video-container video {
-    
+
     position: absolute;
     z-index: 0;
     bottom: 0;
     opacity: 0.7;
-    
+
 }
 .video-container video.fillWidth {
     width: 100%;
 }
 
-/*header {
-    background-image: url(../img/header-bg.jpg);
+.header {
+    background-image: url(../img/header2.jpeg);
     background-repeat: none;
-    background-attachment: scroll;
+    background-attachment: fixed;;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -319,7 +320,7 @@ fieldset[disabled] .btn-sm.active {
     -o-background-size: cover;
     text-align: center;
     color: #fff
-}*/
+}
 
 .titleContainer{
     position: absolute;
@@ -327,12 +328,12 @@ fieldset[disabled] .btn-sm.active {
     text-align: center;
     color: #fff;
 
-} 
+}
 
 .titleContainer .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-   
+
 }
 
 .titleContainer .intro-text .intro-lead-in {
@@ -677,7 +678,7 @@ section h3.section-subheading {
 
 section#contact {
     background-color: #F7F7F7;
-    
+
     background-position: center;
     background-repeat: no-repeat
 }
@@ -746,7 +747,7 @@ section#contact .text-danger {
 footer {
     padding: 35px 0;
     text-align: center
-    
+
 }
 
 footer span.copyright {
@@ -951,7 +952,7 @@ body {
 .resume{
        width: 375px;
        height: 485px;
-    
+
     box-shadow: 12px 12px 8px #888888;
 }
 
@@ -975,5 +976,3 @@ body {
     cursor: pointer;
     margin-bottom: 50px;
 }
-
-
