@@ -310,7 +310,7 @@ fieldset[disabled] .btn-sm.active {
 }
 
 .header {
-    background-image: url(../img/header2.jpeg);
+    background-image: url(../img/header2.png);
     background-repeat: none;
     background-attachment: fixed;;
     background-position: center center;
@@ -343,6 +343,9 @@ fieldset[disabled] .btn-sm.active {
     line-height: 22px;
     margin-bottom: 25px;
     text-align:center;
+    background-color: rgba(26, 188, 156, .7);
+    padding: 20px 0;
+    width: 95%;
 }
 
 .titleContainer .intro-text .intro-heading {
@@ -353,6 +356,10 @@ fieldset[disabled] .btn-sm.active {
     line-height: 50px;
     margin-bottom: 25px;
     text-align: center;
+    background-color: rgba(26, 188, 156, .7);
+    padding: 10px;
+    margin-top: 10%;
+    width: 80%;
 }
 
 @media (min-width:768px) {
@@ -368,6 +375,9 @@ fieldset[disabled] .btn-sm.active {
         line-height: 40px;
         margin-bottom: 25px;
         text-align: center;
+        width: 50%;
+        padding: 20px 5px;
+        margin-left: 6%;
     }
     .titleContainer .intro-text .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -375,11 +385,23 @@ fieldset[disabled] .btn-sm.active {
         font-weight: 500;
         font-size: 50px;
         line-height: 75px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         text-align: center;
+        width: 40%;
+        margin-left: 6%;
+        margin-top: -2%;
     }
 }
-
+@media (min-width:1024px) {
+    .titleContainer .intro-text .intro-heading {
+        width: 36%;
+        margin-left: 10%;
+    }
+    .titleContainer .intro-text .intro-lead-in {
+      width: 42%;
+      margin-left: 10%;
+    }
+}
 section {
     padding: 80px 0
 }
