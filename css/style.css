@@ -313,7 +313,7 @@ fieldset[disabled] .btn-sm.active {
     background-image: url(../img/header2.png);
     background-repeat: none;
     background-attachment: fixed;;
-    background-position: center center;
+    background-position: right center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -343,7 +343,7 @@ fieldset[disabled] .btn-sm.active {
     line-height: 22px;
     margin-bottom: 25px;
     text-align:center;
-    background-color: rgba(26, 188, 156, .7);
+    background-color: rgba(26, 188, 156, .8);
     padding: 20px 0;
     width: 95%;
 }
@@ -356,13 +356,16 @@ fieldset[disabled] .btn-sm.active {
     line-height: 50px;
     margin-bottom: 25px;
     text-align: center;
-    background-color: rgba(26, 188, 156, .7);
+    background-color: rgba(26, 188, 156, .8);
     padding: 10px;
-    margin-top: 10%;
+    margin-top: 12%;
     width: 80%;
 }
 
 @media (min-width:768px) {
+    .header {
+        background-size: center center;
+    }
     .titleContainer .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -378,6 +381,7 @@ fieldset[disabled] .btn-sm.active {
         width: 50%;
         padding: 20px 5px;
         margin-left: 6%;
+        background-color: rgba(26, 188, 156, .7);
     }
     .titleContainer .intro-text .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -389,7 +393,8 @@ fieldset[disabled] .btn-sm.active {
         text-align: center;
         width: 40%;
         margin-left: 6%;
-        margin-top: -2%;
+        margin-top: 2%;
+        background-color: rgba(26, 188, 156, .7);
     }
 }
 @media (min-width:1024px) {
