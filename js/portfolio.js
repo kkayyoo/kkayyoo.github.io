@@ -87,4 +87,11 @@ function scaleBannerVideoSize(element){
         $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
     });
+
+    //Header animation
+    $(document).scroll(function() {
+       var scrollTop = $(this).scrollTop();
+       var headerHeight = $('.intro-text').height();
+       $('.titleContainer').css({'opacity': (1 - scrollTop / headerHeight)});
+    })
 }
