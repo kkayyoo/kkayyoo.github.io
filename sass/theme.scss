@@ -1,0 +1,87 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+//Import Google font
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Libre+Barcode+39+Text|Roboto');
+@import "setting.scss";
+
+// Color
+$carrot:   #e67e22;
+$pumpkin:  #d35400;
+$blue:     #2c3e50;
+$blue-md:  #34495e;
+$black:    #080808;
+$gray:     #333;
+$gray-md:  #666;
+$gray-lg:  #ecf0f1;
+$white:    #fff;
+$white-lg: #eee;
+
+$highlight1:    $carrot;
+$highlight2:    $blue-md;
+$highlight3:    $pumpkin;
+$highlight4:    $blue;
+
+
+$body-font:     $gray;
+$header-font:   $highlight2;
+$button-color:  $highlight1;
+
+//font family
+$sans-serif:  'Roboto', sans-serif;
+$header-family: 'Fira Sans', sans-serif;
+$special-family: 'Libre Barcode 39 Text', cursive;
+
+//Font size
+@include phone {
+    h1 { font-size: 3.4rem; }
+    h2 { font-size: 2.6rem; }
+    h3 { font-size: 2.2rem; }
+    h4 { font-size: 2rem; }
+    h5 { font-size: 1.4rem; }
+    p, li { font-size: 1.6rem; }
+}
+@include desktop {
+    h1 { font-size: 5.2rem; }
+    h2 { font-size: 4.2rem; }
+    h3 { font-size: 3rem; }
+    h4 { font-size: 2.4rem; }
+    h5 { font-size: 1.6rem; }
+    p, li { font-size: 1.8rem; }
+}
+//Font style
+h1, h2 {
+    font-family: $header-family;
+    color: $header-font;
+    letter-spacing: 0.12rem;
+    line-height: 3.5rem;
+}
+h3 {
+    font-family: $sans-serif;
+    color: $header-font;
+    letter-spacing: 0.08rem;
+    line-height: 2.8rem;
+}
+h5 {
+    font-family: $header-family;
+}
+p, li {
+    color: $body-font;
+    font-family: $sans-serif;
+}
+
+a {
+    color: $highlight1;
+    &:focus, &:hover {
+        color: $highlight3;
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+
+
+@import "main.scss";
