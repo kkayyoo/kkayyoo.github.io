@@ -1,806 +1,333 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Yaqi Qiu Portfolio</title>
-    <link rel="icon" href="img/bear.png">
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-</head>
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Kay.Yo</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#intro">About Me</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Activity</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                     <li>
-                        <a class="page-scroll" href="resume.html">Resume</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay Q -- Front End Developer</title>
+    <link rel="icon" href="images/bear.png">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- Programming Language Icons from Devicon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <div class="row expanded">
+        <div class="columns small-6 medium-3">
+          <a class="site-logo" href="index.html">Kay.Yo</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <div class="homepage-hero-module header">
-        <div class="titleContainer">
-            <div class="intro-text">
-                <div class="intro-heading">Hi, I'm Kay</div>
-                <div class="intro-lead-in">Front End Developer &amp Designer</div>
-                <a href="#intro" class="page-scroll"><i class="fa fa-4x fa-angle-down button"></i></a>
-            </div>
+        <div class="columns small-6 medium-9">
+          <div class="main--nav">
+            <ul class="menu">
+              <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+              <li><a class="page-scroll" href="#skill">Skills</a></li>
+              <li><a class="page-scroll" href="#about">About Me</a></li>
+              <li><a class="page-scroll" href="#contact">Contact</a></li>
+              <li><a href="resume.html">Resume</a></li>
+            </ul>
+          </div>
+          <div class="mobile--menu-icon hide-for-xmedium">
+            <button class="menu-icon" type="button"></button>
+          </div>
         </div>
-    </div>
+      </div>
+    </header>
 
-<!-- Start about me section -->
-    <section id="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Nice to meet you</h2>
-                    <h3 class="section-subheading text-muted">I am a girl who believe our better life is combined with technology and creation.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="service-item text-right wow fadeInUp">
-                        <div class="service-text">
-                            <h3>Coding</h3>
-                            <p>I learn coding because it can make things become more interesting, even change the world. My passion motivate me to keep coding and learn the updated technologies.
-                            </p>
-                        </div>
-                        <div class="service-icon">
-                            <i class="fa fa-code"></i>
-                        </div>
-                    </div>
-                    <div class="service-item text-right wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-text">
-                            <h3>Ideas</h3>
-                            <p>I love brainstorming and creativing things in difference. I love fashion but I never blindly follow it.
-                            </p>
-                        </div>
-                        <div class="service-icon">
-                            <i class="fa fa-lightbulb-o"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center ">
-                    <img  class="img-shadow" src="img/self_Screen.png" alt="Phone" />
-                </div>
-                <div class="col-md-4">
-                    <div class="service-item text-left wow fadeInUp">
-                        <div class="service-text">
-                            <h3>Love Life</h3>
-                            <p>The way that I enjoy my life is simple. Having a cup of aromatic coffee and staying with my family make me feel happiness.
-                            </p>
-                        </div>
-                        <div class="service-icon">
-                            <i class="fa fa-smile-o"></i>
-                        </div>
-                    </div>
+    <section class="hero">
+      <div class="hero-info">
+          <h1>Hi, I'm Kay</h1>
+          <h3>Front End Developer</h3>
+      </div>
+    </section>
 
-                    </div>
-                </div>
-            </div>
+    <section class="about-me">
+      <div class="row">
+        <div class="columns small-12 medium-10 small-centered">
+          <h2>Nice to meet you!</h2>
+          <p>I am a girl who believe our better life is combined with technology and creation.</p>
         </div>
-    </div>
-  </section>
+      </div>
+    </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">My recent works and ideas</h3>
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                 <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
-                     <div class="portfolio-hover">
-                         <div class="portfolio-hover-content">
-                             <i class="fa fa-search-plus fa-3x"></i>
-                         </div>
-                     </div>
-                     <img src="img/portfolio/404-cover.png" class="img-responsive" alt="">
-                 </a>
-                 <div class="portfolio-caption">
-                     <h4>404 Page</h4>
-                     <p class="text-muted">Front-End Development</p>
-                 </div>
-             </div>
-             <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
+    <section class="work-portfolio" id="portfolio">
+      <div class="row">
+        <div class="columns small-12 medium-10 small-centered">
+          <h2>Portfolio</h2>
+          <p>My recent Work Projects</p>
+          <h5><i>Front-end Developer @ Boston Interactive</i></h5>
+            <div class="row projects-wrapper">
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/bi.svg" alt="Boston Interactive">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">Boston Interactive</h4>
+                      <h5>Drupal 8</h5>
+                      <p>Main Front-end Developer</p>
+                      <h5>View the Site</h5>
                     </div>
-                    <img src="img/portfolio/holiday-cover.png" class="img-responsive" alt="">
+                  </div>
                 </a>
-                <div class="portfolio-caption">
-                    <h4>Holiday Card</h4>
-                    <p class="text-muted">Front-End Development</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-               <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                   <div class="portfolio-hover">
-                       <div class="portfolio-hover-content">
-                           <i class="fa fa-search-plus fa-3x"></i>
-                       </div>
-                   </div>
-                   <img src="img/portfolio/hackathon-cover.png" class="img-responsive" alt="">
-               </a>
-               <div class="portfolio-caption">
-                   <h4>Running Angel</h4>
-                   <p class="text-muted">Front-End Development</p>
-               </div>
-           </div>
-         </div>    <!--  end of row -->
-        <div class="row">
-             <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
+              </div>
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/valley.png" alt="Valley">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">Valley</h4>
+                      <h5>Gold MarCom Award</h5>
+                      <p>Front-end Lead</p>
+                      <h5>View the Site</h5>
                     </div>
-                    <img src="img/portfolio/ac-cover.png" class="img-responsive" alt="">
+                  </div>
                 </a>
-                <div class="portfolio-caption">
-                    <h4>Agency Compile</h4>
-                    <p class="text-muted">Web Design & Development</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-               <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                   <div class="portfolio-hover">
-                       <div class="portfolio-hover-content">
-                           <i class="fa fa-search-plus fa-3x"></i>
-                       </div>
-                   </div>
-                   <img src="img/portfolio/ps-cover.png" class="img-responsive" alt="">
-               </a>
-               <div class="portfolio-caption">
-                   <h4>PS Learning</h4>
-                   <p class="text-muted">Web Design & Development</p>
-               </div>
-           </div> -->
-                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/traveler-cover.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Traveler</h4>
-                        <p class="text-muted">Web Development</p>
+              </div>
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/ct.svg" alt="Cambridge Trust">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">Cambridge Trust</h4>
+                      <h5>Kentico Top 10 Websites for October 2018</h5>
+                      <p>Main Front-end Developer</p>
+                      <h5>View the Site</h5>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/landing.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Landing Page</h4>
-                        <p class="text-muted">Responsive web Design</p>
+                  </div>
+                </a>
+              </div>
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/lek.svg" alt="L.E.K Consulting">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">L.E.K Consulting</h4>
+                      <h5>Consulting Standard of Excellence from WebAwards</h5>
+                      <p>Front-end Developer</p>
+                      <h5>View the Site</h5>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/codetext.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>CodeText</h4>
-                        <p class="text-muted">Web Development</p>
+                  </div>
+                </a>
+              </div>
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/crl.jpg" alt="Charles River Labs">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">Charles River Labs</h4>
+                      <h5>Outstanding Website from WebAwards</h5>
+                      <p>Front-end Developer</p>
+                      <h5>View the Site</h5>
                     </div>
-                </div>
-              </div> <!-- end of row -->
-              <div class="row">
-                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/iPhone6_birthdayCard_Mockup.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Mobile Birthday Card</h4>
-                        <p class="text-muted">HTML5</p>
+                  </div>
+                </a>
+              </div>
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/andover.svg" alt="The Andover Companies">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">The Andover Companies</h4>
+                      <h5>Drupal 8</h5>
+                      <p>Front-end Developer</p>
+                      <h5>View the Site</h5>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/redesign.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Mockups of Redesign Project</h4>
-                        <p class="text-muted">UI Design</p>
+                  </div>
+                </a>
+              </div>
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/ri.png" alt="Reputation Institute">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">Reputation Institute</h4>
+                      <h5>Drupal 8</h5>
+                      <p>Main Front-end Developer</p>
+                      <h5>View the Site</h5>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/fish.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Fishing Master</h4>
-                        <p class="text-muted">Programming of Interactive Game</p>
+                  </div>
+                </a>
+              </div>
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/mcra.svg" alt="Musculoskeletal Clinical Regulatory Advisers">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">Musculoskeletal Clinical Regulatory Advisers</h4>
+                      <h5>Drupal 8</h5>
+                      <p>Main Front-end Developer</p>
+                      <h5>View the Site</h5>
                     </div>
-                </div>
-              </div>  <!--  end of row -->
+                  </div>
+                </a>
+              </div>
+              <div class="columns small-10 medium-6 large-4 projects-card">
+                <a href="#">
+                  <div class="projects-card--item">
+                    <img src="images/logos/Zambezi.jpg" alt="Zambezi Grace">
+                    <div class="projects-card--info">
+                      <h4 class="projects-card--name">Zambezi Grace</h4>
+                      <h5>Shopify</h5>
+                      <p>Main Front-end Developer</p>
+                      <h5>View the Site</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
         </div>
+      </div>
+
     </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Interesting things</h2>
-                    <h3 class="section-subheading text-muted">There are somethings that not on my resume.</h3>
-                </div>
+    <section class="skill" id="skill">
+      <div class="row">
+        <div class="columns small-12 medium-10 small-centered">
+          <h2>Technical Skills</h2>
+          <p>I have a huge passion to get involved with up-to-date web tech and practical web development tools.</p>
+          <div class="row skills-wrapper">
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-html5-plain"></i>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/rails.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>August 2015</h4>
-                                    <h4 class="subheading">RailsGirls - GZ</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Yes, women can code! It’s so exciting that there are many communities helping women be confident of technology area. What I have learnt from this events is not only about Ruby on Rails, but also how to be curious and comfortable of those updated technologies.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/share.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2015</h4>
-                                    <h4 class="subheading">EasyShare 2020</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">I love traveling and experiencing different cultures. This time I was invited to a sharing event that people can share their travel experiences to others whatever is happy or tough. The meaning is far more than just a thumb up of your friends’ post. It is a way that sharing your story to others and have a better communication.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/run.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>June 2015</h4>
-                                    <h4 class="subheading">B.A.A 10K</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">I love running because it makes me be positive. Sometimes it’s not easy to finish the whole path. But when I done, I know I can challenge myself of further run. Life is similar. There are so many obstructions we faced. We will become a better me after we overcome them.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/volunteer.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>May 2015</h4>
-                                    <h4 class="subheading">Volunteer of ‘Walk for Hunger’</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Being a volunteer is meaningful to me. It is not only helping people, but also a way to make me get involved in the community. Specially, I feel so happy that even cheers and applause can also encourage many people.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Want to
-                                    <br>know more
-                                    <br>about me?</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-css3-plain"></i>
             </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-sass-original"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-javascript-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-jquery-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-foundation-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-bootstrap-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-drupal-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-angularjs-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-react-original"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-github-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-gulp-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-photoshop-plain"></i>
+            </div>
+            <div class="columns small-5 medium-3 large-2 skill-card">
+              <i class="devicon-atom-original"></i>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-
-
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">Want to hire me, sent me an email.</h3>
-                </div>
-            </div>
-
-           <div class="row text-center">
-                <div class="col-md-3">
-                    <span class="fa-stack fa-2x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">qiu.ya@husky.neu.edu</h4>
-
-                </div>
-                <div class="col-md-3 ">
-                    <span class="fa-stack fa-2x">
-                        <a href="https://github.com/kkayyoo">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
-                        </a>
-                    </span>
-                    <h4 class="service-heading">Check Out My Code</h4>
-
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-2x">
-                        <a href="http://codepen.io/KayYo">
-                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                          <i class="fa fa-codepen fa-stack-1x fa-inverse"></i>
-                        </a>
-                    </span>
-                    <h4 class="service-heading">My Fun Stuffs</h4>
-
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-2x">
-                        <a href="https://www.linkedin.com/in/yaqiqiu">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa  fa-linkedin fa-stack-1x fa-inverse"></i>
-                        </a>
-                    </span>
-                    <h4 class="service-heading">Connect My LinkedIn</h4>
-
-                </div>
-            </div>
-
-
-            </div>
+    <section class="experiences" id="about">
+      <div class="row">
+        <div class="columns small-12 large-10 small-centered">
+          <h2>Know more about me</h2>
+          <p>There are somethings that not on my resume.</p>
         </div>
+      </div>
+      <div class="row experiences-wrapper">
+        <div class="columns small-10 medium-8 large-5">
+          <div class="content--info">
+            <h3>Enjoy Meet up, HACKATHON & Tech Conferences</h3>
+            <h4>ANGELHACK — LADY’S PROBLEM HACKATHON</h4>
+            <p>Created a safety tracking app called Running Angel in two days.</p>
+            <p>Keep learning latest & interesting stuff.</p>
+          </div>
+        </div>
+        <div class="columns small-10 medium-8 large-7 content--image">
+          <img src="images/about/code.jpg" alt="HACKATHON">
+          <img src="images/about/drupal.jpg" alt="DrupalCon">
+        </div>
+      </div>
+      <div class="row experiences-wrapper">
+        <div class="columns small-10 medium-8 large-5 large-push-7">
+          <div class="content--info">
+            <h3>Being Volunteer</h3>
+            <h4>UXPA Volunteer - 2016</h4>
+            <h4>Volunteer of ‘Walk for Hunger’ - 2015</h4>
+            <p>Being a volunteer is meaningful to me. It is not only helping people, but also a way to make me get involved in the community.</p>
+          </div>
+        </div>
+        <div class="columns small-10 medium-8 large-7 large-pull-5 content--image">
+          <img src="images/about/uxpa.jpg" alt="UXPA">
+        </div>
+      </div>
+      <div class="row experiences-wrapper">
+        <div class="columns small-10 medium-8 large-5">
+          <div class="content--info">
+            <h3>Love Running, Snowboarding & Traveling</h3>
+            <h4>B.A.A. 10K: 2015 - 2018</h4>
+            <p>Running and Jogging help me stay healthy and relax.</p>
+            <p>I love traveling and experience different cultures & food.</p>
+          </div>
+        </div>
+        <div class="columns small-10 medium-8 large-7 content--image">
+          <img src="images/about/10k.jpg" alt="B.A.A. 10K">
+          <img src="images/about/snowboarding.jpg" alt="Snowboarding">
+        </div>
+      </div>
     </section>
 
-   <footer>
-        <div class="container">
-            <h4><i class="fa fa-smile-o"></i>Thank you for visiting!</h4>
-            <!--<div class="row">
-
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>-->
+    <section class="contact" id="contact">
+      <div class="row">
+        <div class="columns small-12 large-10 small-centered">
+          <h2>Contact Me</h2>
+          <p>Want to talk me, sent me an email.</p>
+          <div class="row contact-wrapper">
+            <div class="columns small-12 medium-6 large-3 contact--card">
+              <span><i class="far fa-envelope"></i></span>
+              <h4>kayqiu87@gmail.com</h4>
+            </div>
+            <div class="columns small-12 medium-6 large-3 contact--card">
+              <a href="https://github.com/kkayyoo">
+                <span><i class="fab fa-github-alt"></i></span>
+                <h4 class="service-heading">Check Out My Code</h4>
+              </a>
+            </div>
+            <div class="columns small-12 medium-6 large-3 contact--card">
+              <a href="http://codepen.io/KayYo">
+                <span><i class="fab fa-codepen"></i></span>
+                <h4 class="service-heading">My Fun Stuff</h4>
+              </a>
+            </div>
+            <div class="columns small-12 medium-6 large-3 contact--card">
+              <a href="https://www.linkedin.com/in/yaqiqiu">
+                <span><i class="fab fa-linkedin-in"></i></span>
+                <h4 class="service-heading">Connect My LinkedIn</h4>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="columns large-10 small-centered">
+          <h4><i class="far fa-smile-wink"></i>Thank you for visiting!</h4>
+        </div>
+      </div>
     </footer>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-    <!-- Portfolio Modal 10 -->
-   <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-       <div class="modal-content">
-           <div class="close-modal" data-dismiss="modal">
-               <div class="lr">
-                   <div class="rl">
-                   </div>
-               </div>
-           </div>
-           <div class="container">
-               <div class="row">
-                   <div class="col-lg-8 col-lg-offset-2">
-                       <div class="modal-body">
-                           <h2>404 Page </h2>
-                           <h3>-- Boston Interactive</h3>
-                           <p class="item-intro text-muted">Front-End Development</p>
-                           <!-- <img class="img-responsive img-centered" src="img/portfolio/landing-page.png" alt=""> -->
-                           <p>Built up a responsive web page without front-end framework</br>
-                             Just like the idea of this 404 page -- back to the past :)</p>
-                             <p><a href="https://www.bostoninteractive.com/404" target="_blank">Visit this page</a></p>
-                       </br>
-                           <img class="img-responsive img-centered" src="img/portfolio/404.jpg" alt="">
-                           <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </div>
-   <!-- Portfolio Modal 9 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                  <div class="rl">
-                  </div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <div class="modal-body">
-                          <h2>Holiday Card 2016 </h2>
-                          <h3>-- Boston Interactive</h3>
-                          <p class="item-intro text-muted">Front-End Development</p>
-                          <!-- <img class="img-responsive img-centered" src="img/portfolio/landing-page.png" alt=""> -->
-                          <p>A responsive web page with falling snow</br>
-                            Using pure CSS to create modal box and interesting animation</br>
-                            Get some fun ideas of Yankee Swap :)
-                            </p>
-                            <p><a href="https://www.bostoninteractive.com/slaybells2016" target="_blank">Visit this page</a></p>
-                      </br>
-                          <img class="img-responsive img-centered" src="img/portfolio/holidayCard.jpg" alt="">
-                          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- Portfolio Modal 8 -->
- <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-     <div class="modal-content">
-         <div class="close-modal" data-dismiss="modal">
-             <div class="lr">
-                 <div class="rl">
-                 </div>
-             </div>
-         </div>
-         <div class="container">
-             <div class="row">
-                 <div class="col-lg-8 col-lg-offset-2">
-                     <div class="modal-body">
-                         <h2>Running Angel</h2>
-                         <h3>-- Lady's Problem Hackathon</h3>
-                         <p class="item-intro text-muted">Front-End Development</p>
-                         <!-- <img class="img-responsive img-centered" src="img/portfolio/landing-page.png" alt=""> -->
-                         <p> Created a responsive webpage in two days, including team building, webpage design, and front-end development</p>
-
-                     </br>
-                         <img class="img-responsive img-centered" src="img/portfolio/hackathon.png" alt="">
-                         <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </div>
- </div>
-
-     <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Traveler</h2>
-                            <p class="item-intro text-muted">Web Development</p>
-                            <!-- <img class="img-responsive img-centered" src="img/portfolio/landing-page.png" alt=""> -->
-                            <p>Programming of a customized trip planning website. Followed important feature of responsive web design. Developed the website by the HTML/CSS3/jQuery.</br>
-
-                            Traveler is a customized trip planning website that people can locate their destinations, discover interesting places, and schedule their trip in one website.</br>
-
-                            The reason that I design this website is I love traveling. I used to plan my trip through many different ways, which I think that’s very inconvenient. Thus, I decided to create a website that can help traveler to plan their trips much easier.
-
-                            </p>
-                        </br>
-                            <img class="img-responsive img-centered" src="img/portfolio/traveler.png" alt="">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Travel Website Landing Page</h2>
-                            <p class="item-intro text-muted">Responsive Web Design</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/landing-page.png" alt="">
-                            <p>I have programmed a customized thrip planning website. This landing page is one of my travel website project. I have followed three important features (Media Queries, Modifiable Text and Images, and Fluid Grids) of responsive web design. The landing page maintains the same content in different devices. I also used Bootstrap components to optimize user experience.</p>
-                        </br>
-                            <img class="img-responsive img-centered" src="img/portfolio/media.png" alt="">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>CodeText</h2>
-                            <p class="item-intro text-muted">Web Development</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/text.png" alt="">
-                            <p>I used HTML, CSS, and JavaScript  to create a code text model. Mainly, using jQuery to achieve different of functions. For example, added resizing font function. I also used Bootstrap components to optimize user experience.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/font-size.png" alt="">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Mobile Birthday Card</h2>
-                            <p class="item-intro text-muted">HTML5 Mobile Webpage</p>
-                            <!--<img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">-->
-                            <video width="640" controls>
-                                <source src="img/portfolio/normal.mp4" type="video/mp4">
-                            </video>
-                            <p>This is a birthday gift to my friend. Although it is a simple HTML5 webpage, I enjoy using what I have learnt to create interesting things.</p>
-
-                            <p>Main concepts of this projects are understanding the layout and presentation of mobile webpage, using CSS3 elements to achieve different animation effects, using JavaScript to control vivid interaction.
-                            </p>
-                            <p>Project vedio presents by Placeit.</p>
-
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-
-                            <h2>Redesign of Tripadvisor Website</h2>
-                            <p class="item-intro text-muted">An academic project of improving website usability</p>
-                            <p>
-                                Ideas of improving user interaction
-                                </br>Modified navigation system and information architecture.
-                                </br>Promoted visual flow by re-organizing content structure.
-                                </br>Reduced unnecessary user’s interaction.
-                            </p>
-                            <p>
-                                I know it may be not easy for me that choosing TripAdvisor website as my redesign project. But, I do enjoy challenging myself. By understanding of the main principles of interaction design, I know there is always a way to improve user experience and interaction. More importantly, I took my previous experiences and applied lessons learned from them to my project. This is because, I think UI/UX design is more like a communication that we have to understand users. I cannot do a good design without thinking the user’s aspects.
-                            </p>
-                            <img class="img-responsive img-centered" src="img/portfolio/Destination.png" alt="">
-
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 0 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-
-                            <h2>Fishing Master</h2>
-                            <p class="item-intro text-muted">An academic project of programming foundations study.</p>
-                            <video width="600px" controls>
-                                <source src="img/portfolio/work2.mp4" type="video/mp4">
-                            </video>
-                            <p>
-                                Designed a desktop game with rich interaction on user-end.
-                                </br>Implemented the application by using Processing.
-                                </br>Had good understanding of basic programming elements.
-                                </br>Check out details at <a href="https://github.com/kkayyoo">my github</a>
-                            </p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-   <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
-    <!-- <div>Icons made by <a href="http://www.flaticon.com/authors/epiccoders" title="EpicCoders">EpicCoders</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-    <!-- Mouse Effect -->
-    <canvas id="c_n1" width="1280" height="515" style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.5;"></canvas>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-    <script type="text/javascript" src="js/wow.js"></script>
-    <!-- Mouse Effect Plugin -->
-    <script type="text/javascript" src="js/mouse.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <!-- <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script> -->
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/portfolio.js"></script>
-
-</body>
-
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/what-input/dist/what-input.js"></script>
+    <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

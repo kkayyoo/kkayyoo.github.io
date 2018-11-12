@@ -1,0 +1,74 @@
+{
+  "name": "import-cwd",
+  "version": "2.1.0",
+  "description": "Import a module like with `require()` but from the current working directory",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/import-cwd.git"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "require",
+    "resolve",
+    "path",
+    "module",
+    "from",
+    "like",
+    "cwd",
+    "current",
+    "working",
+    "directory",
+    "import"
+  ],
+  "dependencies": {
+    "import-from": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "gitHead": "176362fb0b3dd755ecc612ef314cab89f73d239c",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/import-cwd/issues"
+  },
+  "homepage": "https://github.com/sindresorhus/import-cwd#readme",
+  "_id": "import-cwd@2.1.0",
+  "_shasum": "aa6cf36e722761285cb371ec6519f53e2435b0a9",
+  "_from": "import-cwd@>=2.0.0 <3.0.0",
+  "_npmVersion": "4.2.0",
+  "_nodeVersion": "7.10.0",
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "dist": {
+    "shasum": "aa6cf36e722761285cb371ec6519f53e2435b0a9",
+    "tarball": "https://registry.npmjs.org/import-cwd/-/import-cwd-2.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/import-cwd-2.1.0.tgz_1495359582224_0.1513209668919444"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/import-cwd/-/import-cwd-2.1.0.tgz"
+}

@@ -1,0 +1,49 @@
+//Hero
+.hero {
+  background-image: url("../images/header3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 60vh;
+  min-height: calc(100vw + 50px);
+  position: relative;
+  margin: rem-calc(20);
+  width: calc(100% - 40px);
+  @include breakpoint(medium) {
+    height: 80vh;
+    margin: rem-calc(30);
+    min-height: 45vw;
+    width: calc(100% - 60px);
+  }
+}
+.hero-info {
+  @include absolute-center;
+  text-align: center;
+  width: 80%;
+  @include breakpoint(medium) {
+    margin-top: 2vmin;
+    text-align: left;
+  }
+  @include breakpoint(large) {
+    width: auto;
+  }
+  h3 {
+    font-family: $special-family;
+    font-size: rem-calc(36);
+    letter-spacing: 0;
+    line-height: 1.5;
+    opacity: 0;
+    -webkit-transform: translateY(80px);
+    transform: translateY(80px);
+    transition: transform 3s 0.25s cubic-bezier(0, 1, 0.3, 1),
+      opacity 0.3s 0.25s ease-out;
+    will-change: transform, opacity;
+    &.is--visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    @include breakpoint(medium) {
+      font-size: rem-calc(48);
+    }
+  }
+}

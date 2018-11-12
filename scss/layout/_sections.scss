@@ -1,0 +1,41 @@
+section {
+  padding: 6vmin 0 5vmin;
+  text-align: center;
+}
+
+// About Me
+.about-me {
+  padding-bottom: calc(8vmin + 20px);
+  padding-top: 10vmin;
+  text-align: center;
+  @include breakpoint(medium) {
+    padding-bottom: calc(8vmin + 30px);
+  }
+}
+
+// Portfolio
+.work-portfolio {
+  background-color: $light-gray;
+  text-align: center;
+}
+
+.experiences {
+  background-color: $light-gray;
+  overflow: hidden;
+}
+
+.resume--section {
+  background-color: $light-gray;
+  margin-top: rem-calc(120);
+}
+
+footer {
+  padding-bottom: rem-calc(30);
+  text-align: center;
+  h4 {
+    i {
+      color: $highlight1;
+      margin-right: 10px;
+    }
+  }
+}

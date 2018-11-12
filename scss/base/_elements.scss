@@ -1,0 +1,40 @@
+//Font style
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+span,
+i {
+  &::selection {
+    background: rgba($highlight1, 0.52);
+  }
+}
+
+h1,
+h2 {
+  letter-spacing: 0.12rem;
+  line-height: 3.5rem;
+}
+h3 {
+  letter-spacing: 0.08rem;
+  line-height: 1.5;
+}
+p {
+  font-size: calc(16px + 0.5vw);
+}
+
+a {
+  color: $highlight1;
+  &:focus,
+  &:hover {
+    color: $highlight3;
+    text-decoration: none;
+    outline: none;
+  }
+}

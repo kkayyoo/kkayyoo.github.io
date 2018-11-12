@@ -1,0 +1,241 @@
+// Project Cards
+// .projects-wrapper {
+//   display: flex;
+//   .projects-card {
+//     flex: 0 1 auto;
+//   }
+// }
+.projects-wrapper {
+  margin: rem-calc(60) 0;
+}
+.projects-card {
+  margin-bottom: rem-calc(30);
+  @include breakpoint(small only) {
+    margin: rem-calc(15) auto;
+  }
+}
+.projects-card--item {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 200px;
+  //margin-bottom: rem-calc(30);
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  @include breakpoint(large) {
+    min-height: 200px;
+  }
+  &:hover {
+    .projects-card--info {
+      background-color: $highlight4;
+      top: 0;
+    }
+  }
+  img {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .projects-card--info {
+    background-color: rgba(44, 62, 80, 0.9);
+    padding: 1.6rem 1.2rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition: all 0.3s ease;
+    h4 {
+      color: #fff;
+      margin-top: 0;
+    }
+    p {
+      color: #fff;
+      font-size: rem-calc(16);
+    }
+  }
+}
+
+.skills-wrapper {
+  justify-content: center;
+  margin: rem-calc(60) 0;
+}
+.skill-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: rem-calc(45);
+  padding: 20px;
+  position: relative;
+  &::after {
+    @include absolute-center;
+    content: "";
+    border: 1px solid $light-gray;
+    height: rem-calc(110);
+    width: rem-calc(110);
+    z-index: -1;
+  }
+  i {
+    color: $highlight1;
+    font-size: rem-calc(52);
+  }
+}
+
+.experiences-wrapper {
+  justify-content: center;
+  margin-bottom: 3vmax;
+  margin-top: 3vmax;
+  text-align: left;
+  @include breakpoint(large) {
+    margin-bottom: 6vmax;
+    margin-top: 6vmax;
+  }
+  &:last-child {
+    .content--info {
+      @include breakpoint(large) {
+        margin-top: 20%;
+      }
+    }
+    .content--image {
+      img {
+        margin-top: 5%;
+        width: 55%;
+        &:nth-child(2) {
+          margin-top: -30%;
+        }
+      }
+    }
+  }
+}
+
+.content--info {
+  margin-bottom: 10%;
+  margin-top: 10%;
+  &.is--visible {
+    h3 {
+      &::before {
+        width: 85%;
+      }
+    }
+  }
+  h3 {
+    margin-bottom: rem-calc(30);
+    position: relative;
+    &:before {
+      content: "";
+      background-color: $highlight1;
+      bottom: -10px;
+      height: 3px;
+      left: 0;
+      position: absolute;
+      width: 0;
+      transform-origin: left;
+      //transition-delay: 1s;
+      transition: width 0.5s ease 0.2s;
+    }
+  }
+  h4 {
+    color: $highlight4;
+    font-weight: $medium;
+    margin-bottom: rem-calc(20);
+    text-transform: uppercase;
+  }
+  p {
+    font-size: calc(16px + 0.2vw);
+  }
+}
+
+.content--image {
+  position: relative;
+  &:nth-child(odd) {
+    padding-right: 3vw;
+  }
+  &:nth-child(even) {
+    padding-left: 3vw;
+  }
+  img {
+    max-width: 75%;
+    opacity: 0;
+    -webkit-transform: translateY(80px);
+    transform: translateY(80px);
+    transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
+      opacity 0.3s 0.25s ease-out;
+    will-change: transform, opacity;
+    &.is--visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    &:nth-child(2) {
+      float: right;
+      margin-top: -12%;
+      transform: translateY(80px) rotate(15deg);
+      width: 50%;
+      transition: transform 4s 0.35s cubic-bezier(0, 1, 0.3, 1),
+        opacity 0.3s 0.35s ease-out;
+      will-change: transform, opacity;
+      &.is--visible {
+        opacity: 1;
+        transform: translateY(0) rotate(15deg);
+      }
+    }
+  }
+}
+
+.contact-wrapper {
+  margin: rem-calc(60) 0 rem-calc(15);
+}
+.contact--card {
+  margin-bottom: rem-calc(15);
+  position: relative;
+  text-align: center;
+  &:hover {
+    span {
+      transform: scale(1.1, 1.1);
+    }
+  }
+  span {
+    background-color: $highlight1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    margin: 15px auto;
+    position: relative;
+    width: 56px;
+    transform: scale(1, 1);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+  i {
+    color: $white;
+    font-size: rem-calc(30);
+  }
+  h4 {
+    color: $dark-gray;
+    font-size: rem-calc(18);
+  }
+}
+
+.download {
+  border: 2px solid $highlight1;
+  border-radius: 26px;
+  font-size: 22px;
+  padding: 15px;
+  margin: rem-calc(30);
+  a {
+    padding: 16px 32px;
+    i {
+      padding-right: 5px;
+    }
+  }
+  &:hover {
+    background-color: $highlight1;
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+}
